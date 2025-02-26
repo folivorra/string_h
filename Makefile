@@ -19,10 +19,10 @@ gcov_report: clean $(SRCS) tests/*.c
 
 $(LIB_NAME): $(SRCS)
 	$(GCC) -c $(CFLAGS) $(SRCS)
-	mkdir build/
+	mkdir -p build/
 	ar rcs $(LIB_NAME) *.o
 	ranlib $(LIB_NAME)
-	mkdir objects/
+	mkdir -p objects/
 	mv *.o objects/
 
 rebuild: clean $(LIB_NAME)
