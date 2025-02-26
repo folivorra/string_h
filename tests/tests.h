@@ -4,7 +4,7 @@
 #include <check.h>
 #include <string.h>
 
-#include "../s21_string.h"
+#include "../include/s21_string.h"
 
 Suite *s21_memchr_suite(void);
 Suite *s21_memcmp_suite(void);

@@ -1,4 +1,5 @@
-#include "s21_string.h"
+#include "../include/s21_string.h"
+
 // Копирует n символов из src в dest.
 
 // Итерируемся по массивам и заменяем содержимое массива dest

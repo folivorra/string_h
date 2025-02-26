@@ -1,4 +1,4 @@
-#include "s21_string.h"
+#include "../include/s21_string.h"
 
 void cmp(char *itr_n, char *itr_h, int *flag) {
   while (*itr_n) {

@@ -1,4 +1,4 @@
-#include "s21_string.h"
+#include "../include/s21_string.h"
 
 typedef struct {
   char flag;

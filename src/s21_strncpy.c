@@ -1,4 +1,4 @@
-#include "s21_string.h"
+#include "../include/s21_string.h"
 
 char *s21_strncpy(char *dst, const char *src, size_t len) {
   char *res = dst;

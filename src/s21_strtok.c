@@ -1,4 +1,4 @@
-#include "s21_string.h"
+#include "../include/s21_string.h"
 
 char *s21_strtok(char *str, const char *delim) {
   char *res = s21_NULL;

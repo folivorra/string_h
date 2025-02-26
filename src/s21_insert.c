@@ -1,6 +1,4 @@
-#include <stdlib.h>
-
-#include "s21_string.h"
+#include "../include/s21_string.h"
 
 void* s21_insert(const char* src, const char* str, s21_size_t start_index) {
   s21_size_t len_src = s21_strlen(src);
